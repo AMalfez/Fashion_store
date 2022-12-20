@@ -1,0 +1,31 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact h3, form{
+    margin: 2% 0%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    margin-top: 4%;
+}
+form input, textarea{
+    margin-bottom:4%;
+    padding: 5px;
+}
+form input[type= submit]{
+    background-color: rgb(67, 67, 247);
+    color: white;
+    border: none;
+    margin-top: 30px;
+    width: 80px;
+    padding: 5px;
+    border-radius: 6px;
+}
+form input[type= submit]:hover{
+    background-color: rgb(47, 47, 254);
+}

@@ -1,0 +1,33 @@
+.about__container{
+    width: 100%;
+    min-height: 300px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: flex;
+}
+
+.about__heading,.about__pics{
+    width: 48%;
+    min-height: 200px;
+    margin: 2%;
+}
+.about__heading .heading{
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: larger;
+}
+.about__heading{
+    margin-top: 100px;
+}
+.about__heading .desc{
+    font-size: 14px;
+}
+
+.about__pics{
+    display: flex;
+    justify-content: center;
+}
+.about__pics img{
+    height: 350px;
+    width: auto;
+}

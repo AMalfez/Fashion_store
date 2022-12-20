@@ -1,0 +1,26 @@
+.hero{
+    display: grid;
+    grid-template-areas: 'text image';
+    gap: 2rem;
+    height: 30%;
+}
+.image{
+    grid-area: image;
+    width: 50%;
+    margin-right: 190px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.image img{
+    height: 13rem;
+}
+.text{
+    grid-area: text;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 130px;
+}

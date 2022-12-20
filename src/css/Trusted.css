@@ -1,0 +1,14 @@
+.trusted{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    background-color: rgb(247, 246, 246);
+}
+.trusted__heading{
+    font-weight: 650;
+}
+.trusted__icons{
+    display: flex;
+}

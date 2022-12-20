@@ -1,0 +1,55 @@
+.sidebar{
+    width: 20%;
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.searchForm{
+    width: 60%;
+}
+.searchbar{
+    width: 100%;
+    margin: auto;
+    padding: 1px 5px;
+    border: 1px solid rgb(208, 206, 206);
+}
+
+.categories{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.category__heading{
+    font-weight: 600;
+}
+.category__option{
+    font-size: 14px;
+    color: grey;
+    background-color: white;
+    border: none;
+    padding-left: 0;
+}
+.category__option:hover{
+    text-decoration: underline;
+}
+
+.priceFilter{
+    line-height: 2px;
+    color: grey;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.clear__filter{
+    margin-top: 50px;
+    padding: 5px 10px 5px 10px;
+    border: none;
+    color: white;
+    background-color: rgb(206, 72, 72);
+    transition: background-color 0.3s ease;
+    font-size: 13px;
+}
+.clear__filter:hover{
+    background-color: brown;
+}
